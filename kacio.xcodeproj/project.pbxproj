@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57C087B5207FEA5600CF46DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C087B4207FEA5600CF46DB /* AppDelegate.swift */; };
 		57C087B7207FEA5600CF46DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C087B6207FEA5600CF46DB /* ViewController.swift */; };
 		57C087BA207FEA5600CF46DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C087B8207FEA5600CF46DB /* Main.storyboard */; };
 		57C087BC207FEA5900CF46DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C087BB207FEA5900CF46DB /* Assets.xcassets */; };
 		57C087BF207FEA5900CF46DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C087BD207FEA5900CF46DB /* LaunchScreen.storyboard */; };
 		57C087CA207FEA5900CF46DB /* kacioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C087C9207FEA5900CF46DB /* kacioTests.swift */; };
 		57C087D5207FEA5900CF46DB /* kacioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C087D4207FEA5900CF46DB /* kacioUITests.swift */; };
+		57C0997B20800C1600CF46DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0997A20800C1600CF46DB /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		57C087B1207FEA5600CF46DB /* kacio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kacio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C087B4207FEA5600CF46DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C087B6207FEA5600CF46DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57C087B9207FEA5600CF46DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57C087BB207FEA5900CF46DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		57C087D0207FEA5900CF46DB /* kacioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kacioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C087D4207FEA5900CF46DB /* kacioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kacioUITests.swift; sourceTree = "<group>"; };
 		57C087D6207FEA5900CF46DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C0997A20800C1600CF46DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		57C087B3207FEA5600CF46DB /* kacio */ = {
 			isa = PBXGroup;
 			children = (
-				57C087B4207FEA5600CF46DB /* AppDelegate.swift */,
+				57C0997A20800C1600CF46DB /* AppDelegate.swift */,
 				57C087B6207FEA5600CF46DB /* ViewController.swift */,
 				57C087B8207FEA5600CF46DB /* Main.storyboard */,
 				57C087BB207FEA5900CF46DB /* Assets.xcassets */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C0997B20800C1600CF46DB /* AppDelegate.swift in Sources */,
 				57C087B7207FEA5600CF46DB /* ViewController.swift in Sources */,
-				57C087B5207FEA5600CF46DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
